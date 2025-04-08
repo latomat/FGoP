@@ -16,7 +16,7 @@ go run server/main.go
 
 По умолчанию, клиент делает следующее:
     Загружает image.png в директорию uploaded_files/ на сервере
-    Запрашивает список всех файлов ListFiles
+    Запрашивает список всех файлов ListFiles (Name: имя_файла, Created: дата, Updated: дата)
     Скачивает файл обратно как downloaded_image.png
 
 Ограничения по подключению
