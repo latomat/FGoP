@@ -12,10 +12,11 @@
 ```bash
 go run server/main.go
 
----
+
 
 ### Клиент
 
+```bash
 По умолчанию, клиент делает следующее:
     Загружает image.png в директорию uploaded_files/ на сервере
     Запрашивает список всех файлов ListFiles (Name: имя_файла, Created: дата, Updated: дата)
